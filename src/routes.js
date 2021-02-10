@@ -21,6 +21,7 @@ export default function Routes() {
     return(
         <BrowserRouter>
             <Switch>
+                // cliente
                 <Route path="/" exact component={Home} />
                 <Route path="/produtos/:idProduto" exact component={ProdutosDetails} />
 
