@@ -25,6 +25,7 @@ export default function Routes() {
                 <Route path="/" exact component={Home} />
                 <Route path="/produtos/:idProduto" exact component={ProdutosDetails} />
 
+                // admin
                 <Route path="/admin" exact component={Dashboard} />
                 <Route path="/admin/produtos" exact component={Produtos} />
                 <Route path="/admin/produtos/cadastrar" exact component={ProdutosCadastrar} />
